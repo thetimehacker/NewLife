@@ -1,7 +1,12 @@
 #include<bits/stdc++.h>
 using namespace std;
 void solve(){
-	cout<<"hello world!!!";
+	int n;
+	cin>>n;
+	if(n>99 || ((n%10) + ((n%100)/10))%2==0)cout<<"YES";
+
+	else cout<<"NO";
+	cout<<endl;
 }
 int main()
 {
