@@ -23,7 +23,7 @@ void solve(){
 	// print(arr);
 	for(auto x:arr){
 		for(auto y:x){
-			cout<<y<<" ";
+			cout<<y<<" "; 
 		}
 		cout<<endl;
 	}
