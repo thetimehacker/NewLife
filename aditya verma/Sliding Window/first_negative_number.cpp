@@ -22,7 +22,7 @@ void mysolution(){
 		else{
 			if(q.size())cout<<q.front()<<" ";
 			else cout<<0<<" ";
-			if(v[i]<0){
+			if(v[i]==q.front()){ //another condition : (v[i]<0)
 				q.pop();
 			}
 			
